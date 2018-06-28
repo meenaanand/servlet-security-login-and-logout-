@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:18:19:18 +0530] "GET / HTTP/1.1" 404 951 http-bio-9092-exec-1 42
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:18:19:35 +0530] "GET /app HTTP/1.1" 200 515 http-bio-9092-exec-4 675
+0:0:0:0:0:0:0:1 - Joe [28/Jun/2018:18:20:17 +0530] "POST /loginHandler HTTP/1.1" 302 - http-bio-9092-exec-7 4
+0:0:0:0:0:0:0:1 - Joe [28/Jun/2018:18:20:18 +0530] "GET /app HTTP/1.1" 200 112 http-bio-9092-exec-8 114
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:18:20:21 +0530] "GET /logout HTTP/1.1" 302 - http-bio-9092-exec-9 2
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:18:20:21 +0530] "GET /app HTTP/1.1" 200 515 http-bio-9092-exec-10 2
+0:0:0:0:0:0:0:1 - Joe [28/Jun/2018:18:20:39 +0530] "POST /loginHandler HTTP/1.1" 302 - http-bio-9092-exec-10 2
+0:0:0:0:0:0:0:1 - Joe [28/Jun/2018:18:20:39 +0530] "GET /app HTTP/1.1" 200 112 http-bio-9092-exec-10 1
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:18:20:46 +0530] "GET /logout HTTP/1.1" 302 - http-bio-9092-exec-10 2
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:18:20:46 +0530] "GET /app HTTP/1.1" 200 515 http-bio-9092-exec-10 1
+0:0:0:0:0:0:0:1 - - [28/Jun/2018:18:20:52 +0530] "POST /loginHandler HTTP/1.1" 200 536 http-bio-9092-exec-10 4
+0:0:0:0:0:0:0:1 - Joe [28/Jun/2018:18:21:01 +0530] "POST /loginHandler HTTP/1.1" 302 - http-bio-9092-exec-10 2
+0:0:0:0:0:0:0:1 - Joe [28/Jun/2018:18:21:01 +0530] "GET /app HTTP/1.1" 200 112 http-bio-9092-exec-10 1
